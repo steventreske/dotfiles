@@ -37,3 +37,10 @@ stow --verbose --target=$HOME --restow neovim
 stow --verbose --target=$HOME --restow zsh
 stow --verbose --target=$HOME --restow ohmyzsh
 ```
+
+# create install zsh plugins
+```bash
+git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
