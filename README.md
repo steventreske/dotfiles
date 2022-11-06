@@ -36,6 +36,7 @@ cd dotfiles
 stow --verbose --target=$HOME --restow neovim
 stow --verbose --target=$HOME --restow zsh
 stow --verbose --target=$HOME --restow ohmyzsh
+stow --verbose --target=$HOME --restow p10k
 ```
 
 # create install zsh plugins
