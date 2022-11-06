@@ -25,10 +25,14 @@ cd ~ && git clone https://github.com/steventreske/dotfiles.git
 ```
 
 # clean unnecessary created dotfiles
+```bash
 rm ~/.zshrc
+rm -rf ~/.oh-my-zsh/custom
+```
 
 # create sys links for the dot files
 ```bash
+cd dotfiles
 stow --verbose --target=$HOME --restow neovim
 stow --verbose --target=$HOME --restow zsh
 stow --verbose --target=$HOME --restow ohmyzsh
